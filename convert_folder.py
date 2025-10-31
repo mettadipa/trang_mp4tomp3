@@ -2,7 +2,7 @@ import os
 import subprocess
 from tqdm import tqdm
 
-def convert_all_mp4_to_mp3_ffmpeg(input_folder, output_folder=None, overwrite=False, bitrate="192k"):
+def convert_all_mp4_to_mp3_ffmpeg(input_folder, output_folder=None, overwrite=False, bitrate="128k"):
     """
     Efficiently converts all MP4 files in a folder to MP3 using FFmpeg.
 
