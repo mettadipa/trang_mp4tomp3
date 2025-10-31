@@ -58,4 +58,4 @@ def convert_all_mp4_to_mp3_ffmpeg(input_folder, output_folder=None, overwrite=Fa
 if __name__ == "__main__":
     input_folder = "./videos"   # Folder containing your .mp4 files
     output_folder = "./mp3"     # Optional: leave None to use same folder
-    convert_all_mp4_to_mp3_ffmpeg(input_folder, output_folder, overwrite=False, bitrate="192k")
+    convert_all_mp4_to_mp3_ffmpeg(input_folder, output_folder, overwrite=False, bitrate="128k")
