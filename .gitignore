@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Testing / type checking caches
+.pytest_cache/
+.mypy_cache/
+
+# Local configuration
+.vscode/
+.idea/
+.DS_Store
+
+# Generated media
+mp3/
+videos/
+*.mp3
+*.mp4
